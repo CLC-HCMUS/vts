@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+/src/model/rae/*
+/src/model/word2vec/*
+/src/summarytext/*
+/src/data/mini_corpus_have_embedding2.npy
+/src/data/vietnamesemds/*
