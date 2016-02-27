@@ -18,10 +18,14 @@ def summary(cluster_format_npy):
         P = []
         L = []
         if cluster !=None:
+            # cluster["ref1.length"] la do dai cua ban tom tat thu nhat
+            # cluster["ref2.length"] la do dai cua ban tom tat thu hai
+            # cluster["text_id"]
             for text_id in cluster.keys():
                 p = []
                 instances = cluster[text_id]
                 if isinstance(instances, int):
+                    # dong nay la de loai di truong hop cluster["ref1.length"] cluster["ref2.length"]
                     continue
                 for instance in instances:
                     #print(instance[1])   #vector (100,1)

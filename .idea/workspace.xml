@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b934a24-2ec8-4dec-b315-5b28a89deb97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nn/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/submodular/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vec/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/errors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/functions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gradutil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nn/instance.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ioutil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lbfgs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lbfgstrainer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nn/lbfgstrainer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/submodular/loadFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nn/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/submodular/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nn/main2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/submodular/main2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nn/rae.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/raepreparedata.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nn/signals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/submodular/submodular.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/summary.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/timeutil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nn/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/submodular/vector.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vts.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vec/word2vec.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vec/wordvector.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/summary.py" afterPath="$PROJECT_DIR$/src/summary.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,8 +37,8 @@
       <file leaf-file-name="summary.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/summary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67672414">
-              <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.32112068">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
               <folding>
                 <element signature="e#25#58#0" expanded="true" />
               </folding>
@@ -530,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/summary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67672414">
-          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.32112068">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
           <folding>
             <element signature="e#25#58#0" expanded="true" />
           </folding>
