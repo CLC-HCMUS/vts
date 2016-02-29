@@ -27,6 +27,7 @@ for cluster in clusters:
                     L.append(len(instance[1].split()))
                 P.append(p)
             sum = sum + len(V)
+
 print (sum)
 
 

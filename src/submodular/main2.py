@@ -1,6 +1,6 @@
 __author__ = 'HyNguyen'
 
-from numpy import *
+import numpy as np
 import submodular
 
 def insideMatrix(a, V):
@@ -12,10 +12,9 @@ def insideMatrix(a, V):
 
 
 def read_cluster_hy_format(cluster_hy_format_file):
-    clusters = load(cluster_hy_format_file)
+    clusters = np.load(cluster_hy_format_file)
     sum1 = 0
     for cluster in clusters:
-
         V = []
         P = []
         L = []
@@ -46,7 +45,7 @@ def read_cluster_hy_format(cluster_hy_format_file):
                     else:
                         k = k + 1
 
-        save('file_cluster_hy_format_2411_result.npy',clusters)
+        np.save('file_cluster_hy_format_2411_result.npy',clusters)
 read_cluster_hy_format('file_cluster_hy_format_2411.npy')
 
 

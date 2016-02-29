@@ -30,7 +30,7 @@ def str_2_vec(clusters_path, output_path, vectormodel_path, weigth_rae_path):
     clusters_path = clusters_path
 
     clusters = []
-    for cluster_index in range(1,11):
+    for cluster_index in range(1,201):
         if cluster_index == 178:
             clusters.append(None)
             continue
@@ -60,14 +60,16 @@ def str_2_vec(clusters_path, output_path, vectormodel_path, weigth_rae_path):
                         sentences.append(instance_list)
                     file.close()
                 elif file_name.find("ref1") != -1:
-                    fi = codecs.open(cluster_id_path + '/' + file_name, encoding="UTF-8")
+                    fi = codecs.open(cluster_id_path + '/' + file_name)
                     content = fi.read()
                     cluster["ref1.length"] = content.count(" ")
+                    cluster["ref1.content"] = content
                     fi.close()
                 elif file_name.find(".ref2") != -1:
-                    fi = codecs.open(cluster_id_path + '/' + file_name, encoding="UTF-8")
+                    fi = codecs.open(cluster_id_path + '/' + file_name)
                     content = fi.read()
                     cluster["ref2.length"] = content.count(" ")
+                    cluster["ref2.content"] = content
                     fi.close()
                 cluster[file_id_str] = sentences
         clusters.append(cluster)
