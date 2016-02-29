@@ -16,11 +16,12 @@ def summary(cluster_format_npy):
     for cluster in clusters:
         V = []
         P = []
-        L = []
+        V_word = []
         if cluster !=None:
             # cluster["ref1.length"] la do dai cua ban tom tat thu nhat
             # cluster["ref2.length"] la do dai cua ban tom tat thu hai
             # cluster["text_id"]
+
             for text_id in cluster.keys():
                 p = []
                 instances = cluster[text_id]
@@ -32,12 +33,13 @@ def summary(cluster_format_npy):
                     instance.append(False)
                     p.append(instance[1])
                     V.append(instance[1])
-                    L.append(len(instance[0].split()))
+                    V_word.append(len(instance[0].split()))
                 P.append(p)
             alpha = 0.7
             galma = 0.3
             numberofWord = 200
-            summarize = sorted(submodular.maximizeF(V, P, alpha, galma, L, numberofWord))
+            n = np.size(V, axis = 0)
+            summarize = sorted(submodular.SubmodularFunc(V,n, P, V_word, alpha, galma, numberofWord))
             print (summarize)
             i = 0
             k = 0
