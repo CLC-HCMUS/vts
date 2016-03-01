@@ -41,7 +41,7 @@ def summary(cluster_format_npy):
             galma = 0.3
             numberofWord = find_group(cluster["ref1.length"],cluster["ref1.length"])
             summarize = sorted(submodular.maximizeF(V, P, alpha, galma, L, numberofWord))
-            print (summarize)
+            print ( "cluster: ", counter , summarize)
             i = 0
             k = 0
             for text_id in cluster.keys():
@@ -63,10 +63,10 @@ def select_sentence(sentences, max_length):
     sentences_result = []
 
     for sentence in sentences:
+        sentences_result.append(sentence)
         count += sentence.count(' ')
         if count > max_length:
             break
-        sentences_result.append(sentence)
 
     return sentences_result
 
@@ -101,8 +101,7 @@ def write_summary(direct_folder_system, direct_folder_model ,cluster_hy_format_f
 
         file_direct = direct_folder_model + "/" + str(group1_num)  + '/cluster_' + str(idx) + ".ref1.txt"
         file_out = open(file_direct,'w')
-        for line in cluster["ref1.content"].split('. '):
-            file_out.write(line + "\n")
+        file_out.write(cluster["ref1.content"])
         file_out.close()
 
         file_direct = systems_direct + "/" + str(group2_num)  + '/cluster_' + str(idx) + ".ref2.txt"
@@ -112,8 +111,7 @@ def write_summary(direct_folder_system, direct_folder_model ,cluster_hy_format_f
 
         file_direct = direct_folder_model + "/" + str(group2_num)  + '/cluster_' + str(idx) + ".ref2.txt"
         file_out = open(file_direct,'w')
-        for line in cluster["ref2.content"].split('. '):
-            file_out.write(line +"\n")
+        file_out.write(cluster["ref2.content"])
         file_out.close()
         idx+=1
 
@@ -140,7 +138,7 @@ import matplotlib.pyplot as plt
 def find_group(ref1length, ref2length):
 
     maxlength = max(ref1length, ref2length)
-    if maxlength >=maxlength and max <= 120:
+    if maxlength >=40 and maxlength <= 120:
         return 80
     elif maxlength>120 and maxlength <=200:
         return 160
@@ -149,7 +147,7 @@ def find_group(ref1length, ref2length):
     else:
         return 320
 
-
+import os
 if __name__ == "__main__":
     """
     Usage sample:
@@ -167,6 +165,7 @@ if __name__ == "__main__":
     inputpath = args.inputpath
     outputsystem = args.outputsystem
     outputmodel = args.outputmodel
+
 
     summary(inputpath)
     write_summary(outputsystem, outputmodel, inputpath)

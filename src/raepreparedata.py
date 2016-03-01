@@ -59,13 +59,13 @@ def str_2_vec(clusters_path, output_path, vectormodel_path, weigth_rae_path):
                         instance_list = instance.to_list()
                         sentences.append(instance_list)
                     file.close()
-                elif file_name.find("ref1") != -1:
+                elif file_name.find(".ref1.tok.txt") != -1:
                     fi = codecs.open(cluster_id_path + '/' + file_name)
                     content = fi.read()
                     cluster["ref1.length"] = content.count(" ")
                     cluster["ref1.content"] = content
                     fi.close()
-                elif file_name.find(".ref2") != -1:
+                elif file_name.find(".ref2.tok.txt") != -1:
                     fi = codecs.open(cluster_id_path + '/' + file_name)
                     content = fi.read()
                     cluster["ref2.length"] = content.count(" ")
