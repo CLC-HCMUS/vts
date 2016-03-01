@@ -19,7 +19,8 @@ def summary(cluster_format_npy):
         counter +=1
         V = []
         P = []
-        L = []
+        L = np.array([])
+        k = 0
         if cluster !=None:
             # cluster["ref1.length"] la do dai cua ban tom tat thu nhat
             # cluster["ref2.length"] la do dai cua ban tom tat thu hai
@@ -33,15 +34,18 @@ def summary(cluster_format_npy):
                 for instance in instances:
                     #print(instance[1])   #vector (100,1)
                     instance.append(False)
-                    p.append(instance[1])
+                    p.append(k)
+                    k = k + 1
                     V.append(instance[1])
-                    L.append(len(instance[0].split()))
+                    L = np.append(L,len(instance[0].split()))
                 P.append(p)
             alpha = 0.7
             galma = 0.3
+            n = len(V)
+
             numberofWord = find_group(cluster["ref1.length"],cluster["ref1.length"])
-            summarize = sorted(submodular.maximizeF(V, P, alpha, galma, L, numberofWord))
-            print ( "cluster: ", counter , summarize)
+            summarize = sorted(submodular.SubmodularFunc(V,n, P, L, alpha, galma, numberofWord))
+            print (summarize)
             i = 0
             k = 0
             for text_id in cluster.keys():
@@ -147,7 +151,6 @@ def find_group(ref1length, ref2length):
     else:
         return 320
 
-import os
 if __name__ == "__main__":
     """
     Usage sample:

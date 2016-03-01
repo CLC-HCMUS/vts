@@ -1,111 +1,104 @@
 __author__ = 'MichaelLe'
 
-from numpy import *
+import numpy as np
 import vector
+import copy
 # with S, V is the list of all sentence
 
 
 
-def C(v, S):
-    sum = 0
+def SimMatrix(senList):
+    numSen = np.size(senList,0)
+    simM = np.ones((numSen + 1, numSen))
+    for i in range(numSen):
+        for j in range(i,numSen,1):
+            simM[i,j] = vector.similarity(senList[i],senList[j])
+            simM[j,i] = simM[i,j]
+    for i in range(numSen):
+        simM[numSen,i] = np.sum(simM[:numSen,i])
+    return simM
+
+def countC(v, S, simM):
+    #v la so thu tu cau trong V
+    #S la tap thu tu cau da tom tat (thu tu tuong ung trong V
+    sum_cov = 0
     for c in S:
-        #print v
-        #print c
-        #print vector.similarity(v,c)                       
-        sum = sum + vector.similarity(v,c)
-    return sum
+        sum_cov = sum_cov + simM[v,c]
+    return sum_cov
 
 
-def coverage(S, V, alpha):
-    sum = 0
-    for c in V:
-        CS = C(c,S)
-        CV = C(c,V)
-        sum = sum + min(CS, alpha*CV)
-    return sum
+def coverage(S, n, simM, alpha):
+    #S: van ban tom tat (chi chua thu tu cau
+    #V: tap cau dau vao (chi chua thu tu
+    #simM: ma tran similarity
+    #n: kich thuoc V
+    #alpha: he so trade-off
+    sum_cov = 0
+    for c in range(n):
+        CS = countC(c,S,simM)
+        CV = simM[n,c]
+        sum_cov = sum_cov + min(CS, alpha*CV)
+    return sum_cov
 
-def inAList(t, a):
-    for s in a:
-        if (array_equal(s,t)):
-            return 1
-    return 0
-
-def intersectionArray(a,b):
+def intersectionSet(a,b):
+    #giao 2 cluster a, b
     re = []
-    if (size(a,0) > size(b,0)):
+    if len(a) >= len(b):
         for t in a:
-            if (inAList(t,b)):
+            if (t in b) == True:
                 re.append(t)
+        return re
     else:
-        for t in b:
-            if (inAList(t,a)):
-                re.append(t)
-    return re
+        return intersectionSet(b,a)
 
-def diversityEachPart(S,Pi,V):
-    A = intersectionArray(S,Pi)
-    sum = 0
+
+def diversityEachPart(S,Pi,n, simM):
+    #S: van ban tom tat
+    #Pi: cluster thu i
+    #n: so luong cau dau vao V
+    #simM: ma tran tuong quan
+    A = intersectionSet(S,Pi)
+    sum_div = 0
     for a in A:
-        sum = sum + C(a,V)
-    return sum
+        sum_div = sum_div + simM[n,a]
+    return sum_div
 
-def diversity(S,V,P):
-    sum = 0
-    N = size(V,0)
+def diversity(S,n,P,simM):
+    sum_div = 0
     for p in P:
-        sum = sqrt((1.0/N)*diversityEachPart(S,p, V)) + sum
-    return sum
+        sum_div = np.sqrt((1.0/n)*diversityEachPart(S,p, n, simM)) + sum_div
+    return sum_div
 
-def mergePintoV(P):
-    V = []
-    for p in P:
-        for s in p:
-            V.append(s)
-    return V
+def f1(S, n, P, simM, alpha, lamda):
+    return coverage(S,n,simM,alpha) + lamda*diversity(S,n,P,simM)
 
-def F(S, V, P,alpha,lamda):
-    return coverage(S,V,alpha) + lamda*diversity(S,V,P)
+def isStopCon(S,number_of_word_V, max_word):
+    epsilon = 2
+    #count sum word of S:
+    sum_S = np.sum(number_of_word_V[S])
+    if (sum_S > max_word):
+        return 1
+    else: return 0
 
-def copyMatrix(S):
-    V = []
-    for s in S:
-        V.append(s)
-    return V
+def SubmodularFunc(V,n, P, V_word, alpha, lamda, max_word):
+    simM = SimMatrix(V)
 
-def notin(e, se):
+    #create V_number
+    V_number = range(n)
 
-    for s in se:
-        #print s, ' ', e, ' ', se
-        if (e == s):
-            return 1
-    return 0
-
-def addElement(S,V,P,n, alpha, lamda, se):
-    max = 0
-    i=0
-    k = 0
-    for i in arange(0,n):
-        if (notin(i,se) == 0):
-            Temp = copyMatrix(S)
-            Temp.append(V[i])
-            tempF = F(Temp,V,P, alpha,lamda)
-            #print i
-            if  tempF > max:
-                max = tempF
-                k = i
-    return k
-
-def maximizeF(V, P, alpha, lamda, L , k):
+    #find S
     S = []
-    se = []
-    n = size(V,0)
-    price = 0
-    while (1 == 1):
-        e = addElement(S,V, P,n,alpha, lamda, se)
-        #print e
-        if (price + L[e] < k):
-            S.append(V[e])
-            se.append(e)
-            price = price + L[e]
-        else:
-            return se
+
+    while (isStopCon(S,V_word,max_word)== 0):
+        score_matrix = np.zeros(n)
+        for i in range(n):
+            if (i in S) == False:
+                tmp_s = copy.deepcopy(S)
+                tmp_s.append(i)
+                k = f1(tmp_s,n,P,simM,alpha, lamda)
+                score_matrix[i] = k
+        print(score_matrix)
+        selected_sen = np.argmax(score_matrix)
+        S.append(selected_sen)
+
+    return S
