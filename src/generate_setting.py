@@ -10,6 +10,8 @@ if __name__ == "__main__":
 
         model_path = "data/summarymds/summary_model/" + str(group)
         system_path = "data/summarymds/summary_system/"  + str(group)
+        rouge_model_path = "summary_model/" + str(group)
+        rouge_system_path = "summary_system/" + str(group)
         file_names = os.listdir(model_path)
         print file_names
 
@@ -18,10 +20,10 @@ if __name__ == "__main__":
         for file_names in file_names:
             config_file += '\t<EVAL ID="' + str(counter) + '">\n'
             config_file += '\t\t<MODEL-ROOT>\n'
-            config_file += '\t\t\t'+model_path+'\n'
+            config_file += '\t\t\t'+rouge_model_path+'\n'
             config_file += '\t\t</MODEL-ROOT>\n'
             config_file += '\t\t<PEER-ROOT>\n'
-            config_file += '\t\t\t'+system_path+'\n'
+            config_file += '\t\t\t'+rouge_system_path+'\n'
             config_file += '\t\t</PEER-ROOT>\n'
             config_file += '\t\t<INPUT-FORMAT TYPE="SPL">\n'
             config_file += '\t\t</INPUT-FORMAT>\n'
