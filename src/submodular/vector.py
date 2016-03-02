@@ -29,6 +29,9 @@ def cosine(a, b):
 def euclid(a,b):
     return linalg.norm(a-b)
 
-def similarity(a,b):
-    re = euclid(a,b)
-    return re
+def similarity(a,b, mode):
+    if (mode == 0):
+        return cosine(a,b)
+    elif mode == 1:
+        return euclid(a,b)
+

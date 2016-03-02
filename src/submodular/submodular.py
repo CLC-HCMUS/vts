@@ -7,12 +7,12 @@ import copy
 
 
 
-def SimMatrix(senList):
+def SimMatrix(senList, mode):
     numSen = np.size(senList,0)
     simM = np.ones((numSen + 1, numSen))
     for i in range(numSen):
         for j in range(i,numSen,1):
-            simM[i,j] = vector.similarity(senList[i],senList[j])
+            simM[i,j] = vector.similarity(senList[i],senList[j], mode)
             simM[j,i] = simM[i,j]
     for i in range(numSen):
         simM[numSen,i] = np.sum(simM[:numSen,i])
@@ -80,8 +80,8 @@ def isStopCon(S,number_of_word_V, max_word):
         return 1
     else: return 0
 
-def SubmodularFunc(V,n, P, V_word, alpha, lamda, max_word):
-    simM = SimMatrix(V)
+def SubmodularFunc(V,n, P, V_word, alpha, lamda, max_word, mode):
+    simM = SimMatrix(V, mode)
 
     #create V_number
     V_number = range(n)
@@ -100,5 +100,4 @@ def SubmodularFunc(V,n, P, V_word, alpha, lamda, max_word):
         # print(score_matrix)
         selected_sen = np.argmax(score_matrix)
         S.append(selected_sen)
-
     return S

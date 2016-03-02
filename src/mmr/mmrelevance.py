@@ -4,7 +4,7 @@ __author__ = 'MichaelLe'
 from vector import *
 import numpy as np
 
-def build_sim_matrix(senList):
+def build_sim_matrix(senList, mode):
     ########################
     # senList: list of sentence to build sim_matrix
     # ****** note: each element in senList must be np.array 1-d or equivalent
@@ -17,7 +17,7 @@ def build_sim_matrix(senList):
     simM = np.ones((numSen + 1, numSen))
     for i in range(numSen):
         for j in range(i,numSen,1):
-            simM[i,j] = similarity(senList[i],senList[j])
+            simM[i,j] = similarity(senList[i],senList[j], mode)
             simM[j,i] = simM[i,j]
     for i in range(numSen):
         simM[numSen,i] = np.sum(simM[:numSen,i])
@@ -72,7 +72,7 @@ def stopCondition(len_sen_mat, summary, max_word):
         return 0
 
 
-def summaryMMR11(document, len_sen_mat,lamda, max_word):
+def summaryMMR11(document, len_sen_mat,lamda, max_word, mode):
     ################################################################
     # len_sen_mat: matrix of length of all sentence in document
     # document: the set of all sentence
@@ -83,7 +83,7 @@ def summaryMMR11(document, len_sen_mat,lamda, max_word):
     # return the set of sentence in summary
     ################################################################
 
-    sim_matrix = build_sim_matrix(document)
+    sim_matrix = build_sim_matrix(document, mode)
     n = len(document)
     summary = [ ]
     while (stopCondition(len_sen_mat,summary,max_word) == 0):
