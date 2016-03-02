@@ -97,7 +97,7 @@ def SubmodularFunc(V,n, P, V_word, alpha, lamda, max_word):
                 tmp_s.append(i)
                 k = f1(tmp_s,n,P,simM,alpha, lamda)
                 score_matrix[i] = k
-        print(score_matrix)
+        # print(score_matrix)
         selected_sen = np.argmax(score_matrix)
         S.append(selected_sen)
 
