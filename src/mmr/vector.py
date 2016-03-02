@@ -26,6 +26,9 @@ def cosine(a, b):
     d =  linalg.norm(a)*linalg.norm(b)
     return (c/d)
 
+def euclid(a,b):
+    return linalg.norm(a-b)
+
 def similarity(a,b):
-    re = cosine(a,b)
+    re = euclid(a,b)
     return re
