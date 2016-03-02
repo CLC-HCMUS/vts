@@ -15,10 +15,10 @@ def converArr(s):
     return a
 
 def dotProduct(a, b):
-    n = size(a,1)
+    n = size(a,0)
     sum = 0
     for i in range(0,n):
-        sum = sum + a[0,i]*b[0,i]
+        sum = sum + a[i]*b[i]
     return sum
 
 def cosine(a, b):
