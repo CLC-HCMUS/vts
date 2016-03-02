@@ -2,6 +2,8 @@ __author__ = 'HyNguyen'
 
 from submodular import submodular
 from mmr import mmrelevance as mmr
+from summary import summary as smr
+
 import numpy as np
 
 def insideMatrix(a, V):
@@ -45,8 +47,15 @@ def summary(cluster_format_npy):
             n = len(V)
             lamda = 0.3
             numberofWord = 200 #find_group(cluster["ref1.length"],cluster["ref1.length"])
-            #summarize = sorted(submodular.SubmodularFunc(V,n, P, L, alpha, galma, numberofWord))
-            summarize = sorted(mmr.summaryMMR11(V,L,lamda,numberofWord))
+            mode = 0
+            ##########
+            # mode = 0: submodular + cosine
+            # mode = 1: submodular + euclid
+            # mode = 2: mmr + cosine
+            # mode = 3: mmr + euclid
+            # ***** note: galma is the lamda in mmr
+            ##########
+            summarize = smr.do_summarize(V,n, P, L, alpha, galma, numberofWord, mode)
             print (summarize)
             i = 0
             k = 0
