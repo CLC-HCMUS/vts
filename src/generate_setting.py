@@ -8,8 +8,8 @@ if __name__ == "__main__":
     groups = [80,160,240,320]
     for group in groups:
 
-        model_path = "summary_model/" + str(group)
-        system_path = "summary_system/"  + str(group)
+        model_path = "data/summarymds/summary_model/" + str(group)
+        system_path = "data/summarymds/summary_system/"  + str(group)
         file_names = os.listdir(model_path)
         print file_names
 
@@ -34,6 +34,6 @@ if __name__ == "__main__":
             config_file += '\t</EVAL>\n\n'
             counter +=1
         config_file += '</ROUGE_EVAL>\n'
-        file_settings = open('settings.'+str(group)+'.xml','w')
+        file_settings = open('data/summarymds/settings.'+str(group)+'.xml','w')
         file_settings.write(config_file)
         file_settings.close()

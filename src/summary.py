@@ -158,7 +158,7 @@ def find_group(ref1length, ref2length):
 if __name__ == "__main__":
     """
     Usage sample:
-    python summary.py -inputpath data/vietnamesemds.out.npy -outputsystem summary_system -outputmodel summary_model
+    python summary.py -inputpath data/vietnamesemds.out.npy -outputsystem data/summarymds/summary_system -outputmodel data/summarymds/summary_model
     """
 
     parser = argparse.ArgumentParser(description='Parse process ')
