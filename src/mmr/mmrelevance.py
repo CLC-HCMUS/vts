@@ -50,7 +50,7 @@ def scoreMMR1(sim_matrix, sen, n, summary, lamda):
     #   In this version, the similarity of one sentence and a set
     #   is only the linear combination of similarity of sentence with each sentence in this set.
     ########################################################################
-    sim1 = sim_matrix[sen,n]
+    sim1 = sim_matrix[n,sen]
     sim2 = get_sim_for_set(sim_matrix,sen,summary)
     return lamda*sim1 - (1-lamda)*sim2
 
