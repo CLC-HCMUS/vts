@@ -14,7 +14,7 @@ def insideMatrix(a, V):
     return False
 
 
-def summary(cluster_format_npy):
+def summary(cluster_format_npy, summary_mode):
     clusters = np.load(cluster_format_npy)
     sum1 = 0
     counter = 0
@@ -46,8 +46,8 @@ def summary(cluster_format_npy):
             galma = 0.3
             n = len(V)
             lamda = 0.3
-            numberofWord = 200 #find_group(cluster["ref1.length"],cluster["ref1.length"])
-            mode = 0
+            numberofWord = find_group(cluster["ref1.length"],cluster["ref1.length"])
+            mode = summary_mode
             ##########
             # mode = 0: submodular + cosine
             # mode = 1: submodular + euclid
@@ -167,7 +167,7 @@ def find_group(ref1length, ref2length):
 if __name__ == "__main__":
     """
     Usage sample:
-    python summary.py -inputpath data/vietnamesemds.out.npy -outputsystem summary_system -outputmodel summary_model
+    python summary.py -inputpath data/vietnamesemds.out.npy -outputsystem data/summarymds/summary_system -outputmodel data/summarymds/summary_model -summarymode 1
     """
 
     parser = argparse.ArgumentParser(description='Parse process ')
@@ -175,15 +175,15 @@ if __name__ == "__main__":
     parser.add_argument('-inputpath', required=True, type = str, help="path to 200 cluster np format, e.g : data/vietnamesemds.out.npy")
     parser.add_argument('-outputsystem', required=True, type = str, help="output path to generate summary, e.g : summarytext/")
     parser.add_argument('-outputmodel', required=True, type = str, help="output path to generate summary, e.g : summarytext/")
-
+    parser.add_argument('-summarymode', default=0, type = int, help="output path to generate summary, e.g : summarytext/")
     args = parser.parse_args()
 
     inputpath = args.inputpath
     outputsystem = args.outputsystem
     outputmodel = args.outputmodel
+    summarymode = args.summarymode
 
-
-    summary(inputpath)
+    summary(inputpath,summarymode)
     write_summary(outputsystem, outputmodel, inputpath)
 
     # his = staticstic("data/vietnamesemds.out.npy")
