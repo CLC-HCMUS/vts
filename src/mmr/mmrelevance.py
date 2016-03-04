@@ -3,6 +3,7 @@ __author__ = 'MichaelLe'
 
 from vector import *
 import numpy as np
+from numpy import linalg
 
 def build_sim_matrix(senList, mode):
     ########################
@@ -19,8 +20,10 @@ def build_sim_matrix(senList, mode):
         for j in range(i,numSen,1):
             simM[i,j] = similarity(senList[i],senList[j], mode)
             simM[j,i] = simM[i,j]
+    #centroid_vec = np.average(senList, axis = 0)
     for i in range(numSen):
         simM[numSen,i] = np.sum(simM[:numSen,i])
+        #simM[numSen + 1, i] = linalg.norm(senList[i] - centroid_vec)
     return simM
 
 def get_sim_for_set(sim_matrix, sen, set_sen):
@@ -49,11 +52,30 @@ def scoreMMR1(sim_matrix, sen, n, summary, lamda):
     # Calculate the MMR score (1 version):
     #   In this version, the similarity of one sentence and a set
     #   is only the linear combination of similarity of sentence with each sentence in this set.
+    # $ sim(S_i,D, S) = \lambda*\frac{1}{|D|}\sum\limits_{S_j \in D}{Sim_1(S_i, S_j)} - (1 - lambda)*\frac{1}{|S|}\sum\limits_{S_j \in S}{Sim(S_i, S_j)}
     ########################################################################
-    sim1 = sim_matrix[n,sen]
-    sim2 = get_sim_for_set(sim_matrix,sen,summary)
+    sim1 = sim_matrix[n,sen]/n
+    if (len(summary)> 0):
+        sim2 = get_sim_for_set(sim_matrix,sen,summary)/len(summary)
+    else: sim2 = 0
+
     return lamda*sim1 - (1-lamda)*sim2
 
+
+def get_simNorm_for_set(sen, setS):
+    ##########################################
+    # sen: vector representation for sentence
+    # setS: the set of vector representation for sentences
+    #########################################
+    # Calculate the MMR score between sentence and set as below:
+    #   1. Find the centroid of S ==> centroid_vec
+    #   2. $Sim_(S_i,s) = \frac{1}{|S|}norm2(S_i - centroid_vec)$
+    #########################################
+    if (len(setS) > 0):
+        centroid_vec = np.average(setS, axis = 0)
+        return np.linalg.norm(sen - centroid_vec)
+    else:
+        return 0
 
 def stopCondition(len_sen_mat, summary, max_word):
     ################################################################
@@ -94,3 +116,38 @@ def summaryMMR11(document, len_sen_mat,lamda, max_word, mode):
         selected_sen = np.argmax(score_matrix)
         summary.append(selected_sen)
     return summary
+
+
+# def scoreMMR2(sim_matrix_doc, pos_sen, sen, summary, lamda):
+#     centroid_vec = np.linalg.norm(summary)
+#     sim1 = sim_matrix_doc[pos_sen]
+#     if (len(summary) > 0):
+#         sim2 = get_simNorm_for_set(sen, summary)/(len(summary))
+#         return lamda*sim1 - (1-lamda)*sim2
+#     else:
+#         return lamda*sim1
+#
+# def get_sen(document, S):
+#     re = []
+#     for s in S:
+#         re.append(document[s])
+#     return re
+#
+# def summaryMMR12(document, len_sen_mat,lamda, max_word, mode):
+#     n = np.size(document, axis = 0)
+#     sim_matrix_document = np.zeros(n)
+#     centroid_vec_doc = np.average(document, axis = 0)
+#     for i in range(n):
+#         sim_matrix_document[i] = np.linalg.norm(centroid_vec_doc - document[i])/n
+#     S = []
+#
+#     while (stopCondition(len_sen_mat,S, max_word) == 0):
+#         score_matrix = np.zeros(n)
+#         for i in range(n):
+#             if (i in S) == False:
+#                score_matrix[i] = scoreMMR2(sim_matrix_document, i, document[i], get_sen(document, S),lamda)
+#         selected_sen = np.argmax(score_matrix)
+#         #print selected_sen
+#         S.append(selected_sen)
+#     return S
+

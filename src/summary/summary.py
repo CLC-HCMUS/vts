@@ -9,5 +9,6 @@ def do_summarize(V,n, P, L, alpha, galma, numberofWord, mode):
         return sorted(submodular.SubmodularFunc(V,n, P, L, alpha, galma, numberofWord, mode))
     elif mode == 2 or mode == 3:
         return sorted(mmrelevance.summaryMMR11(V, L, galma, numberofWord, mode-2))
-
+    elif mode == 4:
+        return None
 
