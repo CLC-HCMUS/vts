@@ -49,10 +49,11 @@ def summary(cluster_format_npy, summary_mode):
             numberofWord = 200#find_group(cluster["ref1.length"],cluster["ref1.length"])
             mode = summary_mode
             ##########
-            # mode = 0: submodular + cosine
-            # mode = 1: submodular + euclid
-            # mode = 2: mmr + cosine
-            # mode = 3: mmr + euclid
+            # mode sub_cosine: submodular + cosine
+            # mode sub_euclid: submodular + euclid
+            # mode mmr_cosine: mmr + cosine
+            # mode mmr_euclid: mmr + euclid
+            # mode kmean_simple: kmean simple
             # ***** note: galma is the lamda in mmr
             ##########
             summarize = smr.do_summarize(V,n, P, L, alpha, galma, numberofWord, mode)
@@ -72,7 +73,7 @@ def summary(cluster_format_npy, summary_mode):
 
         np.save(cluster_format_npy,clusters)
 
-summary('data/vietnamesemds.out.npy',4)
+summary('data/vietnamesemds.out.npy',"kmean_simple")
 
 # def select_sentence(sentences, max_length):
 #
