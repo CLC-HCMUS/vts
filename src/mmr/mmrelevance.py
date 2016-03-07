@@ -4,6 +4,7 @@ __author__ = 'MichaelLe'
 from vector import *
 import numpy as np
 from numpy import linalg
+from sklearn.cluster import KMeans
 
 def build_sim_matrix(senList, mode):
     ########################
@@ -59,7 +60,7 @@ def scoreMMR1(sim_matrix, sen, n, summary, lamda):
         sim2 = get_sim_for_set(sim_matrix,sen,summary)/len(summary)
     else: sim2 = 0
 
-    return lamda*sim1 - (1-lamda)*sim2
+    return np.abs(lamda*sim1 - (1-lamda)*sim2)
 
 
 def get_simNorm_for_set(sen, setS):
@@ -133,21 +134,25 @@ def summaryMMR11(document, len_sen_mat,lamda, max_word, mode):
 #         re.append(document[s])
 #     return re
 #
-# def summaryMMR12(document, len_sen_mat,lamda, max_word, mode):
-#     n = np.size(document, axis = 0)
-#     sim_matrix_document = np.zeros(n)
-#     centroid_vec_doc = np.average(document, axis = 0)
-#     for i in range(n):
-#         sim_matrix_document[i] = np.linalg.norm(centroid_vec_doc - document[i])/n
-#     S = []
-#
-#     while (stopCondition(len_sen_mat,S, max_word) == 0):
-#         score_matrix = np.zeros(n)
-#         for i in range(n):
-#             if (i in S) == False:
-#                score_matrix[i] = scoreMMR2(sim_matrix_document, i, document[i], get_sen(document, S),lamda)
-#         selected_sen = np.argmax(score_matrix)
-#         #print selected_sen
-#         S.append(selected_sen)
-#     return S
+def summaryMMR_centroid_kmean(document_list, len_sen_mat,lamda, max_word, mode):
 
+    sim_matrix = build_sim_matrix(document_list, mode-5)
+
+    n = len(document_list)
+
+    documet_tmp = np.array(document_list).reshape(n, document_list[0].shape[0])
+
+    centroid = np.argmin(KMeans(n_clusters=1).fit_transform(documet_tmp), axis = 0)
+
+    summary = []
+
+    summary.append(centroid[0])
+
+    while (stopCondition(len_sen_mat,summary,max_word) == 0):
+        score_matrix = np.zeros(n)
+        for i in range(n):
+            if (i in summary) == False:
+                score_matrix[i] = scoreMMR1(sim_matrix,i,n,summary, lamda)
+        selected_sen = np.argmax(score_matrix)
+        summary.append(selected_sen)
+    return summary

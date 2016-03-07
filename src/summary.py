@@ -54,6 +54,8 @@ def summary(cluster_format_npy, summary_mode):
             # mode mmr_cosine: mmr + cosine
             # mode mmr_euclid: mmr + euclid
             # mode kmean_simple: kmean simple
+            # mode mmr_kmean_cosine: mmr with kmean + cosine distance
+            # mode mmr_kmean_euclid: mmr with kmean + euclid distance
             # ***** note: galma is the lamda in mmr
             ##########
             summarize = smr.do_summarize(V,n, P, L, alpha, galma, numberofWord, mode)
@@ -73,7 +75,7 @@ def summary(cluster_format_npy, summary_mode):
 
         np.save(cluster_format_npy,clusters)
 
-summary('data/vietnamesemds.out.npy',"kmean_simple")
+summary('data/vietnamesemds.out.npy',"mmr_kmean_euclid")
 
 # def select_sentence(sentences, max_length):
 #

@@ -8,7 +8,8 @@ import kmean_sum
 
 def do_summarize(V,n, P, L, alpha, galma, numberofWord, mode_str):
 
-    modeList = {"sub_cosine":0, "sub_euclid":1,"mmr_cosine":2,"mmr_euclid":3,"kmean_simple":4}
+    modeList = {"sub_cosine":0, "sub_euclid":1,"mmr_cosine":2,"mmr_euclid":3,"kmean_simple":4,
+                "mmr_kmean_cosine":5,"mmr_kmean_euclid":6}
     mode = modeList[mode_str]
     k = 2
     if (mode == 0) or mode == 1: ## cosine distance
@@ -17,5 +18,7 @@ def do_summarize(V,n, P, L, alpha, galma, numberofWord, mode_str):
         return sorted(mmrelevance.summaryMMR11(V, L, galma, numberofWord, mode-2))
     elif mode == 4:
         return sorted(kmean_sum.kmean_summary(V,L,numberofWord))
+    elif mode == 5 or mode == 6:
+        return sorted(mmrelevance.summaryMMR_centroid_kmean(V,L,galma,numberofWord,mode))
 
 
