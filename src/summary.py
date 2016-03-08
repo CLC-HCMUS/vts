@@ -6,6 +6,7 @@ from summary import summary as smr
 
 import numpy as np
 
+
 def insideMatrix(a, V):
     n = len(V)
     for i in range(0, n):
@@ -75,7 +76,7 @@ def summary(cluster_format_npy, summary_mode):
 
         np.save(cluster_format_npy,clusters)
 
-summary('data/vietnamesemds.out.npy',"mmr_kmean_euclid")
+summary('data/vietnamesemds.out.npy',"mmr_pagerank_cosine")
 
 # def select_sentence(sentences, max_length):
 #

@@ -5,6 +5,8 @@ from vector import *
 import numpy as np
 from numpy import linalg
 from sklearn.cluster import KMeans
+import networkx as nt
+
 
 def build_sim_matrix(senList, mode):
     ########################
@@ -136,7 +138,7 @@ def summaryMMR11(document, len_sen_mat,lamda, max_word, mode):
 #
 def summaryMMR_centroid_kmean(document_list, len_sen_mat,lamda, max_word, mode):
 
-    sim_matrix = build_sim_matrix(document_list, mode-5)
+    sim_matrix = build_sim_matrix(document_list, mode)
 
     n = len(document_list)
 
@@ -156,3 +158,51 @@ def summaryMMR_centroid_kmean(document_list, len_sen_mat,lamda, max_word, mode):
         selected_sen = np.argmax(score_matrix)
         summary.append(selected_sen)
     return summary
+
+def check_threshold_mmr_pagerank(sim_matrix, summary, s, threshold_t):
+    '''
+    parameter:
+        sim_matrix: matrix of similarity of all pairs of sentences
+        summary: summary
+        s: sentence s
+        threshold_t: threshold wants to check
+    return:
+        1: if s is satified with all sentences in summary
+            (mean sim(s,each sentence in summary) < threshold_t)
+        0: otherwise
+    '''
+    for su in summary:
+        if (sim_matrix[s, su] > threshold_t):
+            return 0
+    return 1
+
+def mmr_pagerank(document_list,len_sen_mat, threshold_t, max_word, mode):
+    n = len(document_list)
+    sim_matrix = build_sim_matrix(document_list, mode)
+
+    g = nt.Graph()
+
+    for i in range(n):
+        for j in range(i+1,n,1):
+            g.add_edge(i,j, distance_edge = sim_matrix[i,j])
+
+    page_rank = nt.pagerank(g, weight = "distance_edge")
+
+    score = []
+    for i in range(n):
+        score.append(page_rank[i])
+
+    summary = []
+
+    threshold_t = np.average(sim_matrix[0,:])
+
+    while (stopCondition(len_sen_mat,summary, max_word) == 0):
+        s = np.argmax(score)
+        score[s] = 0 #delele s from score
+        if check_threshold_mmr_pagerank(sim_matrix,summary,s,threshold_t) == 1:
+            summary.append(s)
+
+
+    return summary
+
+

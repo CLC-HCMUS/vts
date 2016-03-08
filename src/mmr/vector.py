@@ -3,6 +3,8 @@ __author__ = 'MichaelLe'
 from numpy import *
 from numpy import linalg as LA
 
+import numpy as np
+
 
 def converArr(s):
     lenS = ceil(len(s)/2.0)
@@ -24,7 +26,7 @@ def dotProduct(a, b):
 def cosine(a, b):
     c =  dotProduct(a,b)
     d =  linalg.norm(a)*linalg.norm(b)
-    return (c/d)
+    return (c/d + 1) / 2
 
 def euclid(a,b):
     return linalg.norm(a-b)
