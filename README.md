@@ -6,4 +6,4 @@ Chương trình tóm tắt trích xuất đa văn bản
 
 Hướng dẫn sử dụng:
 
-python demo_vietsum.py
+`python demo_vietsum.py`
