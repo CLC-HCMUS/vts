@@ -1,0 +1,15 @@
+(----- SHARES -----)	share
+⬅	neutral_emoticon
+✌	neutral_emoticon
+✫	neutral_emoticon
+✪	neutral_emoticon
+★	neutral_emoticon
+____________________________________	attention
+vinamiu	vinamilk
+!!!	attention
+ツ	good_emoticon
++)	good_emoticon
+____	symbol
+-----------------------------	attention
+---------	attention
+----------------------------------------------	attention

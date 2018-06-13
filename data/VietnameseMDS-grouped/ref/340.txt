@@ -1,0 +1,9 @@
+﻿cluster_31.ref2.tok.txt
+cluster_51.ref2.tok.txt
+cluster_63.ref2.tok.txt
+cluster_66.ref1.tok.txt
+cluster_72.ref1.tok.txt
+cluster_74.ref1.tok.txt
+cluster_75.ref2.tok.txt
+cluster_101.ref1.tok.txt
+cluster_187.ref2.tok.txt

@@ -1,0 +1,2773 @@
+<ROUGE_EVAL version="1.55">	<EVAL ID="0">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_1.ref1.tok.txt.0</P>
+			<P ID="1">cluster_1.ref1.tok.txt.1</P>
+			<P ID="2">cluster_1.ref1.tok.txt.2</P>
+			<P ID="3">cluster_1.ref1.tok.txt.3</P>
+			<P ID="4">cluster_1.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_1.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="1">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_101.ref2.tok.txt.0</P>
+			<P ID="1">cluster_101.ref2.tok.txt.1</P>
+			<P ID="2">cluster_101.ref2.tok.txt.2</P>
+			<P ID="3">cluster_101.ref2.tok.txt.3</P>
+			<P ID="4">cluster_101.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_101.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="2">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_102.ref1.tok.txt.0</P>
+			<P ID="1">cluster_102.ref1.tok.txt.1</P>
+			<P ID="2">cluster_102.ref1.tok.txt.2</P>
+			<P ID="3">cluster_102.ref1.tok.txt.3</P>
+			<P ID="4">cluster_102.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_102.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="3">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_103.ref2.tok.txt.0</P>
+			<P ID="1">cluster_103.ref2.tok.txt.1</P>
+			<P ID="2">cluster_103.ref2.tok.txt.2</P>
+			<P ID="3">cluster_103.ref2.tok.txt.3</P>
+			<P ID="4">cluster_103.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_103.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="4">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_104.ref2.tok.txt.0</P>
+			<P ID="1">cluster_104.ref2.tok.txt.1</P>
+			<P ID="2">cluster_104.ref2.tok.txt.2</P>
+			<P ID="3">cluster_104.ref2.tok.txt.3</P>
+			<P ID="4">cluster_104.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_104.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="5">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_105.ref1.tok.txt.0</P>
+			<P ID="1">cluster_105.ref1.tok.txt.1</P>
+			<P ID="2">cluster_105.ref1.tok.txt.2</P>
+			<P ID="3">cluster_105.ref1.tok.txt.3</P>
+			<P ID="4">cluster_105.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_105.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="6">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_105.ref2.tok.txt.0</P>
+			<P ID="1">cluster_105.ref2.tok.txt.1</P>
+			<P ID="2">cluster_105.ref2.tok.txt.2</P>
+			<P ID="3">cluster_105.ref2.tok.txt.3</P>
+			<P ID="4">cluster_105.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_105.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="7">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_108.ref1.tok.txt.0</P>
+			<P ID="1">cluster_108.ref1.tok.txt.1</P>
+			<P ID="2">cluster_108.ref1.tok.txt.2</P>
+			<P ID="3">cluster_108.ref1.tok.txt.3</P>
+			<P ID="4">cluster_108.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_108.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="8">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_108.ref2.tok.txt.0</P>
+			<P ID="1">cluster_108.ref2.tok.txt.1</P>
+			<P ID="2">cluster_108.ref2.tok.txt.2</P>
+			<P ID="3">cluster_108.ref2.tok.txt.3</P>
+			<P ID="4">cluster_108.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_108.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="9">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_109.ref1.tok.txt.0</P>
+			<P ID="1">cluster_109.ref1.tok.txt.1</P>
+			<P ID="2">cluster_109.ref1.tok.txt.2</P>
+			<P ID="3">cluster_109.ref1.tok.txt.3</P>
+			<P ID="4">cluster_109.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_109.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="10">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_110.ref2.tok.txt.0</P>
+			<P ID="1">cluster_110.ref2.tok.txt.1</P>
+			<P ID="2">cluster_110.ref2.tok.txt.2</P>
+			<P ID="3">cluster_110.ref2.tok.txt.3</P>
+			<P ID="4">cluster_110.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_110.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="11">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_115.ref1.tok.txt.0</P>
+			<P ID="1">cluster_115.ref1.tok.txt.1</P>
+			<P ID="2">cluster_115.ref1.tok.txt.2</P>
+			<P ID="3">cluster_115.ref1.tok.txt.3</P>
+			<P ID="4">cluster_115.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_115.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="12">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_115.ref2.tok.txt.0</P>
+			<P ID="1">cluster_115.ref2.tok.txt.1</P>
+			<P ID="2">cluster_115.ref2.tok.txt.2</P>
+			<P ID="3">cluster_115.ref2.tok.txt.3</P>
+			<P ID="4">cluster_115.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_115.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="13">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_116.ref2.tok.txt.0</P>
+			<P ID="1">cluster_116.ref2.tok.txt.1</P>
+			<P ID="2">cluster_116.ref2.tok.txt.2</P>
+			<P ID="3">cluster_116.ref2.tok.txt.3</P>
+			<P ID="4">cluster_116.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_116.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="14">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_117.ref2.tok.txt.0</P>
+			<P ID="1">cluster_117.ref2.tok.txt.1</P>
+			<P ID="2">cluster_117.ref2.tok.txt.2</P>
+			<P ID="3">cluster_117.ref2.tok.txt.3</P>
+			<P ID="4">cluster_117.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_117.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="15">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_119.ref2.tok.txt.0</P>
+			<P ID="1">cluster_119.ref2.tok.txt.1</P>
+			<P ID="2">cluster_119.ref2.tok.txt.2</P>
+			<P ID="3">cluster_119.ref2.tok.txt.3</P>
+			<P ID="4">cluster_119.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_119.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="16">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_123.ref1.tok.txt.0</P>
+			<P ID="1">cluster_123.ref1.tok.txt.1</P>
+			<P ID="2">cluster_123.ref1.tok.txt.2</P>
+			<P ID="3">cluster_123.ref1.tok.txt.3</P>
+			<P ID="4">cluster_123.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_123.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="17">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_123.ref2.tok.txt.0</P>
+			<P ID="1">cluster_123.ref2.tok.txt.1</P>
+			<P ID="2">cluster_123.ref2.tok.txt.2</P>
+			<P ID="3">cluster_123.ref2.tok.txt.3</P>
+			<P ID="4">cluster_123.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_123.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="18">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_124.ref2.tok.txt.0</P>
+			<P ID="1">cluster_124.ref2.tok.txt.1</P>
+			<P ID="2">cluster_124.ref2.tok.txt.2</P>
+			<P ID="3">cluster_124.ref2.tok.txt.3</P>
+			<P ID="4">cluster_124.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_124.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="19">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_127.ref1.tok.txt.0</P>
+			<P ID="1">cluster_127.ref1.tok.txt.1</P>
+			<P ID="2">cluster_127.ref1.tok.txt.2</P>
+			<P ID="3">cluster_127.ref1.tok.txt.3</P>
+			<P ID="4">cluster_127.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_127.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="20">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_127.ref2.tok.txt.0</P>
+			<P ID="1">cluster_127.ref2.tok.txt.1</P>
+			<P ID="2">cluster_127.ref2.tok.txt.2</P>
+			<P ID="3">cluster_127.ref2.tok.txt.3</P>
+			<P ID="4">cluster_127.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_127.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="21">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_132.ref1.tok.txt.0</P>
+			<P ID="1">cluster_132.ref1.tok.txt.1</P>
+			<P ID="2">cluster_132.ref1.tok.txt.2</P>
+			<P ID="3">cluster_132.ref1.tok.txt.3</P>
+			<P ID="4">cluster_132.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_132.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="22">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_133.ref1.tok.txt.0</P>
+			<P ID="1">cluster_133.ref1.tok.txt.1</P>
+			<P ID="2">cluster_133.ref1.tok.txt.2</P>
+			<P ID="3">cluster_133.ref1.tok.txt.3</P>
+			<P ID="4">cluster_133.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_133.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="23">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_133.ref2.tok.txt.0</P>
+			<P ID="1">cluster_133.ref2.tok.txt.1</P>
+			<P ID="2">cluster_133.ref2.tok.txt.2</P>
+			<P ID="3">cluster_133.ref2.tok.txt.3</P>
+			<P ID="4">cluster_133.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_133.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="24">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_134.ref1.tok.txt.0</P>
+			<P ID="1">cluster_134.ref1.tok.txt.1</P>
+			<P ID="2">cluster_134.ref1.tok.txt.2</P>
+			<P ID="3">cluster_134.ref1.tok.txt.3</P>
+			<P ID="4">cluster_134.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_134.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="25">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_135.ref1.tok.txt.0</P>
+			<P ID="1">cluster_135.ref1.tok.txt.1</P>
+			<P ID="2">cluster_135.ref1.tok.txt.2</P>
+			<P ID="3">cluster_135.ref1.tok.txt.3</P>
+			<P ID="4">cluster_135.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_135.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="26">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_138.ref2.tok.txt.0</P>
+			<P ID="1">cluster_138.ref2.tok.txt.1</P>
+			<P ID="2">cluster_138.ref2.tok.txt.2</P>
+			<P ID="3">cluster_138.ref2.tok.txt.3</P>
+			<P ID="4">cluster_138.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_138.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="27">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_139.ref2.tok.txt.0</P>
+			<P ID="1">cluster_139.ref2.tok.txt.1</P>
+			<P ID="2">cluster_139.ref2.tok.txt.2</P>
+			<P ID="3">cluster_139.ref2.tok.txt.3</P>
+			<P ID="4">cluster_139.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_139.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="28">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_140.ref2.tok.txt.0</P>
+			<P ID="1">cluster_140.ref2.tok.txt.1</P>
+			<P ID="2">cluster_140.ref2.tok.txt.2</P>
+			<P ID="3">cluster_140.ref2.tok.txt.3</P>
+			<P ID="4">cluster_140.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_140.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="29">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_141.ref1.tok.txt.0</P>
+			<P ID="1">cluster_141.ref1.tok.txt.1</P>
+			<P ID="2">cluster_141.ref1.tok.txt.2</P>
+			<P ID="3">cluster_141.ref1.tok.txt.3</P>
+			<P ID="4">cluster_141.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_141.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="30">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_142.ref2.tok.txt.0</P>
+			<P ID="1">cluster_142.ref2.tok.txt.1</P>
+			<P ID="2">cluster_142.ref2.tok.txt.2</P>
+			<P ID="3">cluster_142.ref2.tok.txt.3</P>
+			<P ID="4">cluster_142.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_142.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="31">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_143.ref1.tok.txt.0</P>
+			<P ID="1">cluster_143.ref1.tok.txt.1</P>
+			<P ID="2">cluster_143.ref1.tok.txt.2</P>
+			<P ID="3">cluster_143.ref1.tok.txt.3</P>
+			<P ID="4">cluster_143.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_143.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="32">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_144.ref1.tok.txt.0</P>
+			<P ID="1">cluster_144.ref1.tok.txt.1</P>
+			<P ID="2">cluster_144.ref1.tok.txt.2</P>
+			<P ID="3">cluster_144.ref1.tok.txt.3</P>
+			<P ID="4">cluster_144.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_144.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="33">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_144.ref2.tok.txt.0</P>
+			<P ID="1">cluster_144.ref2.tok.txt.1</P>
+			<P ID="2">cluster_144.ref2.tok.txt.2</P>
+			<P ID="3">cluster_144.ref2.tok.txt.3</P>
+			<P ID="4">cluster_144.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_144.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="34">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_145.ref1.tok.txt.0</P>
+			<P ID="1">cluster_145.ref1.tok.txt.1</P>
+			<P ID="2">cluster_145.ref1.tok.txt.2</P>
+			<P ID="3">cluster_145.ref1.tok.txt.3</P>
+			<P ID="4">cluster_145.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_145.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="35">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_145.ref2.tok.txt.0</P>
+			<P ID="1">cluster_145.ref2.tok.txt.1</P>
+			<P ID="2">cluster_145.ref2.tok.txt.2</P>
+			<P ID="3">cluster_145.ref2.tok.txt.3</P>
+			<P ID="4">cluster_145.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_145.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="36">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_147.ref1.tok.txt.0</P>
+			<P ID="1">cluster_147.ref1.tok.txt.1</P>
+			<P ID="2">cluster_147.ref1.tok.txt.2</P>
+			<P ID="3">cluster_147.ref1.tok.txt.3</P>
+			<P ID="4">cluster_147.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_147.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="37">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_147.ref2.tok.txt.0</P>
+			<P ID="1">cluster_147.ref2.tok.txt.1</P>
+			<P ID="2">cluster_147.ref2.tok.txt.2</P>
+			<P ID="3">cluster_147.ref2.tok.txt.3</P>
+			<P ID="4">cluster_147.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_147.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="38">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_148.ref1.tok.txt.0</P>
+			<P ID="1">cluster_148.ref1.tok.txt.1</P>
+			<P ID="2">cluster_148.ref1.tok.txt.2</P>
+			<P ID="3">cluster_148.ref1.tok.txt.3</P>
+			<P ID="4">cluster_148.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_148.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="39">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_148.ref2.tok.txt.0</P>
+			<P ID="1">cluster_148.ref2.tok.txt.1</P>
+			<P ID="2">cluster_148.ref2.tok.txt.2</P>
+			<P ID="3">cluster_148.ref2.tok.txt.3</P>
+			<P ID="4">cluster_148.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_148.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="40">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_149.ref1.tok.txt.0</P>
+			<P ID="1">cluster_149.ref1.tok.txt.1</P>
+			<P ID="2">cluster_149.ref1.tok.txt.2</P>
+			<P ID="3">cluster_149.ref1.tok.txt.3</P>
+			<P ID="4">cluster_149.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_149.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="41">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_15.ref2.tok.txt.0</P>
+			<P ID="1">cluster_15.ref2.tok.txt.1</P>
+			<P ID="2">cluster_15.ref2.tok.txt.2</P>
+			<P ID="3">cluster_15.ref2.tok.txt.3</P>
+			<P ID="4">cluster_15.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_15.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="42">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_150.ref1.tok.txt.0</P>
+			<P ID="1">cluster_150.ref1.tok.txt.1</P>
+			<P ID="2">cluster_150.ref1.tok.txt.2</P>
+			<P ID="3">cluster_150.ref1.tok.txt.3</P>
+			<P ID="4">cluster_150.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_150.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="43">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_150.ref2.tok.txt.0</P>
+			<P ID="1">cluster_150.ref2.tok.txt.1</P>
+			<P ID="2">cluster_150.ref2.tok.txt.2</P>
+			<P ID="3">cluster_150.ref2.tok.txt.3</P>
+			<P ID="4">cluster_150.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_150.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="44">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_151.ref2.tok.txt.0</P>
+			<P ID="1">cluster_151.ref2.tok.txt.1</P>
+			<P ID="2">cluster_151.ref2.tok.txt.2</P>
+			<P ID="3">cluster_151.ref2.tok.txt.3</P>
+			<P ID="4">cluster_151.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_151.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="45">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_152.ref1.tok.txt.0</P>
+			<P ID="1">cluster_152.ref1.tok.txt.1</P>
+			<P ID="2">cluster_152.ref1.tok.txt.2</P>
+			<P ID="3">cluster_152.ref1.tok.txt.3</P>
+			<P ID="4">cluster_152.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_152.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="46">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_153.ref2.tok.txt.0</P>
+			<P ID="1">cluster_153.ref2.tok.txt.1</P>
+			<P ID="2">cluster_153.ref2.tok.txt.2</P>
+			<P ID="3">cluster_153.ref2.tok.txt.3</P>
+			<P ID="4">cluster_153.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_153.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="47">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_154.ref1.tok.txt.0</P>
+			<P ID="1">cluster_154.ref1.tok.txt.1</P>
+			<P ID="2">cluster_154.ref1.tok.txt.2</P>
+			<P ID="3">cluster_154.ref1.tok.txt.3</P>
+			<P ID="4">cluster_154.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_154.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="48">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_155.ref1.tok.txt.0</P>
+			<P ID="1">cluster_155.ref1.tok.txt.1</P>
+			<P ID="2">cluster_155.ref1.tok.txt.2</P>
+			<P ID="3">cluster_155.ref1.tok.txt.3</P>
+			<P ID="4">cluster_155.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_155.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="49">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_157.ref2.tok.txt.0</P>
+			<P ID="1">cluster_157.ref2.tok.txt.1</P>
+			<P ID="2">cluster_157.ref2.tok.txt.2</P>
+			<P ID="3">cluster_157.ref2.tok.txt.3</P>
+			<P ID="4">cluster_157.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_157.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="50">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_158.ref2.tok.txt.0</P>
+			<P ID="1">cluster_158.ref2.tok.txt.1</P>
+			<P ID="2">cluster_158.ref2.tok.txt.2</P>
+			<P ID="3">cluster_158.ref2.tok.txt.3</P>
+			<P ID="4">cluster_158.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_158.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="51">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_159.ref1.tok.txt.0</P>
+			<P ID="1">cluster_159.ref1.tok.txt.1</P>
+			<P ID="2">cluster_159.ref1.tok.txt.2</P>
+			<P ID="3">cluster_159.ref1.tok.txt.3</P>
+			<P ID="4">cluster_159.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_159.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="52">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_159.ref2.tok.txt.0</P>
+			<P ID="1">cluster_159.ref2.tok.txt.1</P>
+			<P ID="2">cluster_159.ref2.tok.txt.2</P>
+			<P ID="3">cluster_159.ref2.tok.txt.3</P>
+			<P ID="4">cluster_159.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_159.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="53">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_16.ref2.tok.txt.0</P>
+			<P ID="1">cluster_16.ref2.tok.txt.1</P>
+			<P ID="2">cluster_16.ref2.tok.txt.2</P>
+			<P ID="3">cluster_16.ref2.tok.txt.3</P>
+			<P ID="4">cluster_16.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_16.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="54">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_163.ref1.tok.txt.0</P>
+			<P ID="1">cluster_163.ref1.tok.txt.1</P>
+			<P ID="2">cluster_163.ref1.tok.txt.2</P>
+			<P ID="3">cluster_163.ref1.tok.txt.3</P>
+			<P ID="4">cluster_163.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_163.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="55">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_168.ref1.tok.txt.0</P>
+			<P ID="1">cluster_168.ref1.tok.txt.1</P>
+			<P ID="2">cluster_168.ref1.tok.txt.2</P>
+			<P ID="3">cluster_168.ref1.tok.txt.3</P>
+			<P ID="4">cluster_168.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_168.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="56">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_169.ref1.tok.txt.0</P>
+			<P ID="1">cluster_169.ref1.tok.txt.1</P>
+			<P ID="2">cluster_169.ref1.tok.txt.2</P>
+			<P ID="3">cluster_169.ref1.tok.txt.3</P>
+			<P ID="4">cluster_169.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_169.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="57">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_17.ref2.tok.txt.0</P>
+			<P ID="1">cluster_17.ref2.tok.txt.1</P>
+			<P ID="2">cluster_17.ref2.tok.txt.2</P>
+			<P ID="3">cluster_17.ref2.tok.txt.3</P>
+			<P ID="4">cluster_17.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_17.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="58">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_170.ref1.tok.txt.0</P>
+			<P ID="1">cluster_170.ref1.tok.txt.1</P>
+			<P ID="2">cluster_170.ref1.tok.txt.2</P>
+			<P ID="3">cluster_170.ref1.tok.txt.3</P>
+			<P ID="4">cluster_170.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_170.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="59">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_171.ref1.tok.txt.0</P>
+			<P ID="1">cluster_171.ref1.tok.txt.1</P>
+			<P ID="2">cluster_171.ref1.tok.txt.2</P>
+			<P ID="3">cluster_171.ref1.tok.txt.3</P>
+			<P ID="4">cluster_171.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_171.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="60">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_174.ref1.tok.txt.0</P>
+			<P ID="1">cluster_174.ref1.tok.txt.1</P>
+			<P ID="2">cluster_174.ref1.tok.txt.2</P>
+			<P ID="3">cluster_174.ref1.tok.txt.3</P>
+			<P ID="4">cluster_174.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_174.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="61">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_174.ref2.tok.txt.0</P>
+			<P ID="1">cluster_174.ref2.tok.txt.1</P>
+			<P ID="2">cluster_174.ref2.tok.txt.2</P>
+			<P ID="3">cluster_174.ref2.tok.txt.3</P>
+			<P ID="4">cluster_174.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_174.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="62">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_176.ref1.tok.txt.0</P>
+			<P ID="1">cluster_176.ref1.tok.txt.1</P>
+			<P ID="2">cluster_176.ref1.tok.txt.2</P>
+			<P ID="3">cluster_176.ref1.tok.txt.3</P>
+			<P ID="4">cluster_176.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_176.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="63">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_176.ref2.tok.txt.0</P>
+			<P ID="1">cluster_176.ref2.tok.txt.1</P>
+			<P ID="2">cluster_176.ref2.tok.txt.2</P>
+			<P ID="3">cluster_176.ref2.tok.txt.3</P>
+			<P ID="4">cluster_176.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_176.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="64">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_182.ref1.tok.txt.0</P>
+			<P ID="1">cluster_182.ref1.tok.txt.1</P>
+			<P ID="2">cluster_182.ref1.tok.txt.2</P>
+			<P ID="3">cluster_182.ref1.tok.txt.3</P>
+			<P ID="4">cluster_182.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_182.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="65">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_183.ref2.tok.txt.0</P>
+			<P ID="1">cluster_183.ref2.tok.txt.1</P>
+			<P ID="2">cluster_183.ref2.tok.txt.2</P>
+			<P ID="3">cluster_183.ref2.tok.txt.3</P>
+			<P ID="4">cluster_183.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_183.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="66">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_184.ref1.tok.txt.0</P>
+			<P ID="1">cluster_184.ref1.tok.txt.1</P>
+			<P ID="2">cluster_184.ref1.tok.txt.2</P>
+			<P ID="3">cluster_184.ref1.tok.txt.3</P>
+			<P ID="4">cluster_184.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_184.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="67">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_185.ref1.tok.txt.0</P>
+			<P ID="1">cluster_185.ref1.tok.txt.1</P>
+			<P ID="2">cluster_185.ref1.tok.txt.2</P>
+			<P ID="3">cluster_185.ref1.tok.txt.3</P>
+			<P ID="4">cluster_185.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_185.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="68">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_186.ref1.tok.txt.0</P>
+			<P ID="1">cluster_186.ref1.tok.txt.1</P>
+			<P ID="2">cluster_186.ref1.tok.txt.2</P>
+			<P ID="3">cluster_186.ref1.tok.txt.3</P>
+			<P ID="4">cluster_186.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_186.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="69">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_187.ref1.tok.txt.0</P>
+			<P ID="1">cluster_187.ref1.tok.txt.1</P>
+			<P ID="2">cluster_187.ref1.tok.txt.2</P>
+			<P ID="3">cluster_187.ref1.tok.txt.3</P>
+			<P ID="4">cluster_187.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_187.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="70">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_188.ref1.tok.txt.0</P>
+			<P ID="1">cluster_188.ref1.tok.txt.1</P>
+			<P ID="2">cluster_188.ref1.tok.txt.2</P>
+			<P ID="3">cluster_188.ref1.tok.txt.3</P>
+			<P ID="4">cluster_188.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_188.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="71">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_192.ref1.tok.txt.0</P>
+			<P ID="1">cluster_192.ref1.tok.txt.1</P>
+			<P ID="2">cluster_192.ref1.tok.txt.2</P>
+			<P ID="3">cluster_192.ref1.tok.txt.3</P>
+			<P ID="4">cluster_192.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_192.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="72">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_192.ref2.tok.txt.0</P>
+			<P ID="1">cluster_192.ref2.tok.txt.1</P>
+			<P ID="2">cluster_192.ref2.tok.txt.2</P>
+			<P ID="3">cluster_192.ref2.tok.txt.3</P>
+			<P ID="4">cluster_192.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_192.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="73">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_195.ref2.tok.txt.0</P>
+			<P ID="1">cluster_195.ref2.tok.txt.1</P>
+			<P ID="2">cluster_195.ref2.tok.txt.2</P>
+			<P ID="3">cluster_195.ref2.tok.txt.3</P>
+			<P ID="4">cluster_195.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_195.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="74">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_196.ref1.tok.txt.0</P>
+			<P ID="1">cluster_196.ref1.tok.txt.1</P>
+			<P ID="2">cluster_196.ref1.tok.txt.2</P>
+			<P ID="3">cluster_196.ref1.tok.txt.3</P>
+			<P ID="4">cluster_196.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_196.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="75">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_196.ref2.tok.txt.0</P>
+			<P ID="1">cluster_196.ref2.tok.txt.1</P>
+			<P ID="2">cluster_196.ref2.tok.txt.2</P>
+			<P ID="3">cluster_196.ref2.tok.txt.3</P>
+			<P ID="4">cluster_196.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_196.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="76">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_198.ref2.tok.txt.0</P>
+			<P ID="1">cluster_198.ref2.tok.txt.1</P>
+			<P ID="2">cluster_198.ref2.tok.txt.2</P>
+			<P ID="3">cluster_198.ref2.tok.txt.3</P>
+			<P ID="4">cluster_198.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_198.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="77">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_2.ref1.tok.txt.0</P>
+			<P ID="1">cluster_2.ref1.tok.txt.1</P>
+			<P ID="2">cluster_2.ref1.tok.txt.2</P>
+			<P ID="3">cluster_2.ref1.tok.txt.3</P>
+			<P ID="4">cluster_2.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_2.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="78">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_20.ref1.tok.txt.0</P>
+			<P ID="1">cluster_20.ref1.tok.txt.1</P>
+			<P ID="2">cluster_20.ref1.tok.txt.2</P>
+			<P ID="3">cluster_20.ref1.tok.txt.3</P>
+			<P ID="4">cluster_20.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_20.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="79">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_21.ref1.tok.txt.0</P>
+			<P ID="1">cluster_21.ref1.tok.txt.1</P>
+			<P ID="2">cluster_21.ref1.tok.txt.2</P>
+			<P ID="3">cluster_21.ref1.tok.txt.3</P>
+			<P ID="4">cluster_21.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_21.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="80">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_23.ref1.tok.txt.0</P>
+			<P ID="1">cluster_23.ref1.tok.txt.1</P>
+			<P ID="2">cluster_23.ref1.tok.txt.2</P>
+			<P ID="3">cluster_23.ref1.tok.txt.3</P>
+			<P ID="4">cluster_23.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_23.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="81">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_26.ref2.tok.txt.0</P>
+			<P ID="1">cluster_26.ref2.tok.txt.1</P>
+			<P ID="2">cluster_26.ref2.tok.txt.2</P>
+			<P ID="3">cluster_26.ref2.tok.txt.3</P>
+			<P ID="4">cluster_26.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_26.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="82">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_27.ref1.tok.txt.0</P>
+			<P ID="1">cluster_27.ref1.tok.txt.1</P>
+			<P ID="2">cluster_27.ref1.tok.txt.2</P>
+			<P ID="3">cluster_27.ref1.tok.txt.3</P>
+			<P ID="4">cluster_27.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_27.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="83">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_29.ref1.tok.txt.0</P>
+			<P ID="1">cluster_29.ref1.tok.txt.1</P>
+			<P ID="2">cluster_29.ref1.tok.txt.2</P>
+			<P ID="3">cluster_29.ref1.tok.txt.3</P>
+			<P ID="4">cluster_29.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_29.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="84">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_29.ref2.tok.txt.0</P>
+			<P ID="1">cluster_29.ref2.tok.txt.1</P>
+			<P ID="2">cluster_29.ref2.tok.txt.2</P>
+			<P ID="3">cluster_29.ref2.tok.txt.3</P>
+			<P ID="4">cluster_29.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_29.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="85">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_3.ref1.tok.txt.0</P>
+			<P ID="1">cluster_3.ref1.tok.txt.1</P>
+			<P ID="2">cluster_3.ref1.tok.txt.2</P>
+			<P ID="3">cluster_3.ref1.tok.txt.3</P>
+			<P ID="4">cluster_3.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_3.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="86">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_3.ref2.tok.txt.0</P>
+			<P ID="1">cluster_3.ref2.tok.txt.1</P>
+			<P ID="2">cluster_3.ref2.tok.txt.2</P>
+			<P ID="3">cluster_3.ref2.tok.txt.3</P>
+			<P ID="4">cluster_3.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_3.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="87">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_32.ref1.tok.txt.0</P>
+			<P ID="1">cluster_32.ref1.tok.txt.1</P>
+			<P ID="2">cluster_32.ref1.tok.txt.2</P>
+			<P ID="3">cluster_32.ref1.tok.txt.3</P>
+			<P ID="4">cluster_32.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_32.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="88">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_32.ref2.tok.txt.0</P>
+			<P ID="1">cluster_32.ref2.tok.txt.1</P>
+			<P ID="2">cluster_32.ref2.tok.txt.2</P>
+			<P ID="3">cluster_32.ref2.tok.txt.3</P>
+			<P ID="4">cluster_32.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_32.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="89">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_33.ref2.tok.txt.0</P>
+			<P ID="1">cluster_33.ref2.tok.txt.1</P>
+			<P ID="2">cluster_33.ref2.tok.txt.2</P>
+			<P ID="3">cluster_33.ref2.tok.txt.3</P>
+			<P ID="4">cluster_33.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_33.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="90">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_38.ref1.tok.txt.0</P>
+			<P ID="1">cluster_38.ref1.tok.txt.1</P>
+			<P ID="2">cluster_38.ref1.tok.txt.2</P>
+			<P ID="3">cluster_38.ref1.tok.txt.3</P>
+			<P ID="4">cluster_38.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_38.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="91">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_39.ref1.tok.txt.0</P>
+			<P ID="1">cluster_39.ref1.tok.txt.1</P>
+			<P ID="2">cluster_39.ref1.tok.txt.2</P>
+			<P ID="3">cluster_39.ref1.tok.txt.3</P>
+			<P ID="4">cluster_39.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_39.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="92">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_4.ref1.tok.txt.0</P>
+			<P ID="1">cluster_4.ref1.tok.txt.1</P>
+			<P ID="2">cluster_4.ref1.tok.txt.2</P>
+			<P ID="3">cluster_4.ref1.tok.txt.3</P>
+			<P ID="4">cluster_4.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_4.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="93">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_41.ref1.tok.txt.0</P>
+			<P ID="1">cluster_41.ref1.tok.txt.1</P>
+			<P ID="2">cluster_41.ref1.tok.txt.2</P>
+			<P ID="3">cluster_41.ref1.tok.txt.3</P>
+			<P ID="4">cluster_41.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_41.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="94">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_43.ref2.tok.txt.0</P>
+			<P ID="1">cluster_43.ref2.tok.txt.1</P>
+			<P ID="2">cluster_43.ref2.tok.txt.2</P>
+			<P ID="3">cluster_43.ref2.tok.txt.3</P>
+			<P ID="4">cluster_43.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_43.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="95">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_44.ref2.tok.txt.0</P>
+			<P ID="1">cluster_44.ref2.tok.txt.1</P>
+			<P ID="2">cluster_44.ref2.tok.txt.2</P>
+			<P ID="3">cluster_44.ref2.tok.txt.3</P>
+			<P ID="4">cluster_44.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_44.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="96">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_46.ref1.tok.txt.0</P>
+			<P ID="1">cluster_46.ref1.tok.txt.1</P>
+			<P ID="2">cluster_46.ref1.tok.txt.2</P>
+			<P ID="3">cluster_46.ref1.tok.txt.3</P>
+			<P ID="4">cluster_46.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_46.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="97">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_46.ref2.tok.txt.0</P>
+			<P ID="1">cluster_46.ref2.tok.txt.1</P>
+			<P ID="2">cluster_46.ref2.tok.txt.2</P>
+			<P ID="3">cluster_46.ref2.tok.txt.3</P>
+			<P ID="4">cluster_46.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_46.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="98">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_48.ref1.tok.txt.0</P>
+			<P ID="1">cluster_48.ref1.tok.txt.1</P>
+			<P ID="2">cluster_48.ref1.tok.txt.2</P>
+			<P ID="3">cluster_48.ref1.tok.txt.3</P>
+			<P ID="4">cluster_48.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_48.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="99">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_49.ref2.tok.txt.0</P>
+			<P ID="1">cluster_49.ref2.tok.txt.1</P>
+			<P ID="2">cluster_49.ref2.tok.txt.2</P>
+			<P ID="3">cluster_49.ref2.tok.txt.3</P>
+			<P ID="4">cluster_49.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_49.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="100">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_5.ref1.tok.txt.0</P>
+			<P ID="1">cluster_5.ref1.tok.txt.1</P>
+			<P ID="2">cluster_5.ref1.tok.txt.2</P>
+			<P ID="3">cluster_5.ref1.tok.txt.3</P>
+			<P ID="4">cluster_5.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_5.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="101">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_52.ref1.tok.txt.0</P>
+			<P ID="1">cluster_52.ref1.tok.txt.1</P>
+			<P ID="2">cluster_52.ref1.tok.txt.2</P>
+			<P ID="3">cluster_52.ref1.tok.txt.3</P>
+			<P ID="4">cluster_52.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_52.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="102">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_54.ref1.tok.txt.0</P>
+			<P ID="1">cluster_54.ref1.tok.txt.1</P>
+			<P ID="2">cluster_54.ref1.tok.txt.2</P>
+			<P ID="3">cluster_54.ref1.tok.txt.3</P>
+			<P ID="4">cluster_54.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_54.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="103">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_55.ref2.tok.txt.0</P>
+			<P ID="1">cluster_55.ref2.tok.txt.1</P>
+			<P ID="2">cluster_55.ref2.tok.txt.2</P>
+			<P ID="3">cluster_55.ref2.tok.txt.3</P>
+			<P ID="4">cluster_55.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_55.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="104">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_56.ref1.tok.txt.0</P>
+			<P ID="1">cluster_56.ref1.tok.txt.1</P>
+			<P ID="2">cluster_56.ref1.tok.txt.2</P>
+			<P ID="3">cluster_56.ref1.tok.txt.3</P>
+			<P ID="4">cluster_56.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_56.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="105">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_58.ref1.tok.txt.0</P>
+			<P ID="1">cluster_58.ref1.tok.txt.1</P>
+			<P ID="2">cluster_58.ref1.tok.txt.2</P>
+			<P ID="3">cluster_58.ref1.tok.txt.3</P>
+			<P ID="4">cluster_58.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_58.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="106">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_60.ref1.tok.txt.0</P>
+			<P ID="1">cluster_60.ref1.tok.txt.1</P>
+			<P ID="2">cluster_60.ref1.tok.txt.2</P>
+			<P ID="3">cluster_60.ref1.tok.txt.3</P>
+			<P ID="4">cluster_60.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_60.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="107">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_60.ref2.tok.txt.0</P>
+			<P ID="1">cluster_60.ref2.tok.txt.1</P>
+			<P ID="2">cluster_60.ref2.tok.txt.2</P>
+			<P ID="3">cluster_60.ref2.tok.txt.3</P>
+			<P ID="4">cluster_60.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_60.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="108">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_62.ref2.tok.txt.0</P>
+			<P ID="1">cluster_62.ref2.tok.txt.1</P>
+			<P ID="2">cluster_62.ref2.tok.txt.2</P>
+			<P ID="3">cluster_62.ref2.tok.txt.3</P>
+			<P ID="4">cluster_62.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_62.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="109">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_63.ref1.tok.txt.0</P>
+			<P ID="1">cluster_63.ref1.tok.txt.1</P>
+			<P ID="2">cluster_63.ref1.tok.txt.2</P>
+			<P ID="3">cluster_63.ref1.tok.txt.3</P>
+			<P ID="4">cluster_63.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_63.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="110">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_64.ref1.tok.txt.0</P>
+			<P ID="1">cluster_64.ref1.tok.txt.1</P>
+			<P ID="2">cluster_64.ref1.tok.txt.2</P>
+			<P ID="3">cluster_64.ref1.tok.txt.3</P>
+			<P ID="4">cluster_64.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_64.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="111">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_65.ref2.tok.txt.0</P>
+			<P ID="1">cluster_65.ref2.tok.txt.1</P>
+			<P ID="2">cluster_65.ref2.tok.txt.2</P>
+			<P ID="3">cluster_65.ref2.tok.txt.3</P>
+			<P ID="4">cluster_65.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_65.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="112">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_69.ref1.tok.txt.0</P>
+			<P ID="1">cluster_69.ref1.tok.txt.1</P>
+			<P ID="2">cluster_69.ref1.tok.txt.2</P>
+			<P ID="3">cluster_69.ref1.tok.txt.3</P>
+			<P ID="4">cluster_69.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_69.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="113">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_7.ref2.tok.txt.0</P>
+			<P ID="1">cluster_7.ref2.tok.txt.1</P>
+			<P ID="2">cluster_7.ref2.tok.txt.2</P>
+			<P ID="3">cluster_7.ref2.tok.txt.3</P>
+			<P ID="4">cluster_7.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_7.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="114">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_72.ref2.tok.txt.0</P>
+			<P ID="1">cluster_72.ref2.tok.txt.1</P>
+			<P ID="2">cluster_72.ref2.tok.txt.2</P>
+			<P ID="3">cluster_72.ref2.tok.txt.3</P>
+			<P ID="4">cluster_72.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_72.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="115">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_73.ref2.tok.txt.0</P>
+			<P ID="1">cluster_73.ref2.tok.txt.1</P>
+			<P ID="2">cluster_73.ref2.tok.txt.2</P>
+			<P ID="3">cluster_73.ref2.tok.txt.3</P>
+			<P ID="4">cluster_73.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_73.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="116">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_74.ref2.tok.txt.0</P>
+			<P ID="1">cluster_74.ref2.tok.txt.1</P>
+			<P ID="2">cluster_74.ref2.tok.txt.2</P>
+			<P ID="3">cluster_74.ref2.tok.txt.3</P>
+			<P ID="4">cluster_74.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_74.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="117">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_76.ref1.tok.txt.0</P>
+			<P ID="1">cluster_76.ref1.tok.txt.1</P>
+			<P ID="2">cluster_76.ref1.tok.txt.2</P>
+			<P ID="3">cluster_76.ref1.tok.txt.3</P>
+			<P ID="4">cluster_76.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_76.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="118">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_80.ref2.tok.txt.0</P>
+			<P ID="1">cluster_80.ref2.tok.txt.1</P>
+			<P ID="2">cluster_80.ref2.tok.txt.2</P>
+			<P ID="3">cluster_80.ref2.tok.txt.3</P>
+			<P ID="4">cluster_80.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_80.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="119">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_81.ref1.tok.txt.0</P>
+			<P ID="1">cluster_81.ref1.tok.txt.1</P>
+			<P ID="2">cluster_81.ref1.tok.txt.2</P>
+			<P ID="3">cluster_81.ref1.tok.txt.3</P>
+			<P ID="4">cluster_81.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_81.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="120">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_83.ref2.tok.txt.0</P>
+			<P ID="1">cluster_83.ref2.tok.txt.1</P>
+			<P ID="2">cluster_83.ref2.tok.txt.2</P>
+			<P ID="3">cluster_83.ref2.tok.txt.3</P>
+			<P ID="4">cluster_83.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_83.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="121">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_85.ref1.tok.txt.0</P>
+			<P ID="1">cluster_85.ref1.tok.txt.1</P>
+			<P ID="2">cluster_85.ref1.tok.txt.2</P>
+			<P ID="3">cluster_85.ref1.tok.txt.3</P>
+			<P ID="4">cluster_85.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_85.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="122">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_89.ref2.tok.txt.0</P>
+			<P ID="1">cluster_89.ref2.tok.txt.1</P>
+			<P ID="2">cluster_89.ref2.tok.txt.2</P>
+			<P ID="3">cluster_89.ref2.tok.txt.3</P>
+			<P ID="4">cluster_89.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_89.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="123">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_9.ref1.tok.txt.0</P>
+			<P ID="1">cluster_9.ref1.tok.txt.1</P>
+			<P ID="2">cluster_9.ref1.tok.txt.2</P>
+			<P ID="3">cluster_9.ref1.tok.txt.3</P>
+			<P ID="4">cluster_9.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_9.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="124">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_9.ref2.tok.txt.0</P>
+			<P ID="1">cluster_9.ref2.tok.txt.1</P>
+			<P ID="2">cluster_9.ref2.tok.txt.2</P>
+			<P ID="3">cluster_9.ref2.tok.txt.3</P>
+			<P ID="4">cluster_9.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_9.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="125">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_92.ref2.tok.txt.0</P>
+			<P ID="1">cluster_92.ref2.tok.txt.1</P>
+			<P ID="2">cluster_92.ref2.tok.txt.2</P>
+			<P ID="3">cluster_92.ref2.tok.txt.3</P>
+			<P ID="4">cluster_92.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_92.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="126">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_94.ref2.tok.txt.0</P>
+			<P ID="1">cluster_94.ref2.tok.txt.1</P>
+			<P ID="2">cluster_94.ref2.tok.txt.2</P>
+			<P ID="3">cluster_94.ref2.tok.txt.3</P>
+			<P ID="4">cluster_94.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_94.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="127">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_96.ref1.tok.txt.0</P>
+			<P ID="1">cluster_96.ref1.tok.txt.1</P>
+			<P ID="2">cluster_96.ref1.tok.txt.2</P>
+			<P ID="3">cluster_96.ref1.tok.txt.3</P>
+			<P ID="4">cluster_96.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_96.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="128">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_97.ref1.tok.txt.0</P>
+			<P ID="1">cluster_97.ref1.tok.txt.1</P>
+			<P ID="2">cluster_97.ref1.tok.txt.2</P>
+			<P ID="3">cluster_97.ref1.tok.txt.3</P>
+			<P ID="4">cluster_97.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_97.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="129">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_98.ref1.tok.txt.0</P>
+			<P ID="1">cluster_98.ref1.tok.txt.1</P>
+			<P ID="2">cluster_98.ref1.tok.txt.2</P>
+			<P ID="3">cluster_98.ref1.tok.txt.3</P>
+			<P ID="4">cluster_98.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_98.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="130">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_99.ref1.tok.txt.0</P>
+			<P ID="1">cluster_99.ref1.tok.txt.1</P>
+			<P ID="2">cluster_99.ref1.tok.txt.2</P>
+			<P ID="3">cluster_99.ref1.tok.txt.3</P>
+			<P ID="4">cluster_99.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_99.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="131">
+		<MODEL-ROOT>
+			model/180
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-unigramtfidf-sktmdssim/180
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_99.ref2.tok.txt.0</P>
+			<P ID="1">cluster_99.ref2.tok.txt.1</P>
+			<P ID="2">cluster_99.ref2.tok.txt.2</P>
+			<P ID="3">cluster_99.ref2.tok.txt.3</P>
+			<P ID="4">cluster_99.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_99.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+</ROUGE_EVAL>

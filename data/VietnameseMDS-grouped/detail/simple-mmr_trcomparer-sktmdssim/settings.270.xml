@@ -1,0 +1,127 @@
+<ROUGE_EVAL version="1.55">	<EVAL ID="0">
+		<MODEL-ROOT>
+			model/270
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-sktmdssim/270
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_10.ref1.tok.txt.0</P>
+			<P ID="1">cluster_10.ref1.tok.txt.1</P>
+			<P ID="2">cluster_10.ref1.tok.txt.2</P>
+			<P ID="3">cluster_10.ref1.tok.txt.3</P>
+			<P ID="4">cluster_10.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_10.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="1">
+		<MODEL-ROOT>
+			model/270
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-sktmdssim/270
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_162.ref2.tok.txt.0</P>
+			<P ID="1">cluster_162.ref2.tok.txt.1</P>
+			<P ID="2">cluster_162.ref2.tok.txt.2</P>
+			<P ID="3">cluster_162.ref2.tok.txt.3</P>
+			<P ID="4">cluster_162.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_162.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="2">
+		<MODEL-ROOT>
+			model/270
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-sktmdssim/270
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_54.ref2.tok.txt.0</P>
+			<P ID="1">cluster_54.ref2.tok.txt.1</P>
+			<P ID="2">cluster_54.ref2.tok.txt.2</P>
+			<P ID="3">cluster_54.ref2.tok.txt.3</P>
+			<P ID="4">cluster_54.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_54.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="3">
+		<MODEL-ROOT>
+			model/270
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-sktmdssim/270
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_66.ref2.tok.txt.0</P>
+			<P ID="1">cluster_66.ref2.tok.txt.1</P>
+			<P ID="2">cluster_66.ref2.tok.txt.2</P>
+			<P ID="3">cluster_66.ref2.tok.txt.3</P>
+			<P ID="4">cluster_66.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_66.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="4">
+		<MODEL-ROOT>
+			model/270
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-sktmdssim/270
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_79.ref1.tok.txt.0</P>
+			<P ID="1">cluster_79.ref1.tok.txt.1</P>
+			<P ID="2">cluster_79.ref1.tok.txt.2</P>
+			<P ID="3">cluster_79.ref1.tok.txt.3</P>
+			<P ID="4">cluster_79.ref1.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_79.ref1.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+	<EVAL ID="5">
+		<MODEL-ROOT>
+			model/270
+		</MODEL-ROOT>
+		<PEER-ROOT>
+			simple-mmr_trcomparer-sktmdssim/270
+		</PEER-ROOT>
+		<INPUT-FORMAT TYPE="SPL">
+		</INPUT-FORMAT>
+		<PEERS>
+			<P ID="0">cluster_81.ref2.tok.txt.0</P>
+			<P ID="1">cluster_81.ref2.tok.txt.1</P>
+			<P ID="2">cluster_81.ref2.tok.txt.2</P>
+			<P ID="3">cluster_81.ref2.tok.txt.3</P>
+			<P ID="4">cluster_81.ref2.tok.txt.4</P>
+		</PEERS>
+		<MODELS>
+			<M ID="A">cluster_81.ref2.tok.txt</M>
+		</MODELS>
+	</EVAL>
+
+</ROUGE_EVAL>

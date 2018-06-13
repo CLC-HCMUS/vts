@@ -1,0 +1,7 @@
+Trong thời_gian gần đây , Yahoo tiếp_tục áp_dụng rất nhiều nâng_cấp cho dịch_vụ Mail của họ , trong đó gần đây nhất_là những nâng_cấp về giao_diện cùng 1 TB dung_lượng lưu_trữ .
+Cụ_thể , từ thời_điểm nói trên , Yahoo_Mail , theo mặc_định , sẽ áp_dụng công_nghệ mã_hóa SSL ( Secure_Sockets_Layer ) hay còn gọi_là HTTPS .
+Đây là công_nghệ mã_hóa cho độ bảo_mật cao giúp mail của người dùng tránh được các nguy_cơ bị đánh_cắp .
+> > Xem thêm : Giao_thức https : / / an_toàn hơn những vẫn bị " bỏ_xó " ?
+Dù động_thái này của Yahoo là rất đáng hoan_nghênh , nhưng có_thể thấy rằng đây là một phản_ứng chậm_chạp của hãng .
+Yahoo đã khá chậm chân trong việc tích_hợp HTTPS , trước đó , Google đã cung_cấp HTTPS như_là một tùy chọn không bắt_buộc cho người dùng từ năm 2008 và chuyển nó thành mặc_định từ năm 2010 .
+Lưu_ý là kết_nối HTTPS giai_đoạn đầu sẽ chỉ hỗ_trợ phiên_bản mail trên web mà thôi .

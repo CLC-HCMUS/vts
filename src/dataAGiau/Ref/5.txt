@@ -1,6 +1,0 @@
-﻿cluster_10.ref1.tok.txt
-cluster_54.ref2.tok.txt
-cluster_66.ref2.tok.txt
-cluster_79.ref1.tok.txt
-cluster_81.ref2.tok.txt
-cluster_162.ref2.tok.txt
